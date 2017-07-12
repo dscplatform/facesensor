@@ -1,0 +1,23 @@
+{
+  "name": "facesensor",
+  "version": "0.0.1",
+  "description": "node sensor to detect face from camera broadcast, python sensor to then recognize using deep learning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node FaceDetectionSensor.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dscplatform/facesensor.git"
+  },
+  "author": "Leif Andreas Rudlang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dscplatform/facesensor/issues"
+  },
+  "homepage": "https://github.com/dscplatform/facesensor#readme",
+  "dependencies": {
+    "opencv": "^6.0.0"
+  }
+}
